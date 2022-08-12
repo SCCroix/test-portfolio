@@ -1,8 +1,10 @@
+/* General Settings */
 * {
-    /* box-sizing: border-box; */
     padding: 2px;
     margin: 20px;
 }
+
+/* Settings for the header */
 
 header {
     background-color: darkkhaki;
@@ -14,14 +16,9 @@ header h1 {
 
 header ul {
     list-style-type: none;
-    border: 1px solid red;
 }
 
 header li {
-    display: inline-block;
-}
-
-nav li {
     display: inline-block;
 }
 
@@ -29,3 +26,15 @@ nav li {
     display: inline-block;
     float: right;
 }
+
+
+/* Settings for the navigation bar */
+nav {
+    background-color: bisque;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
