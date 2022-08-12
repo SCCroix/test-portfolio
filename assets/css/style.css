@@ -1,10 +1,10 @@
 /* General Settings */
 :root {
-    --color-main: #E7ECEF;
-    --color-accent1: #274C77;
-    --color-accent2: #6096BA;
-    --color-accent3: #A3CEF1;
-    --color-accent4: #8B8C89; 
+    --color-white: #E7ECEF;
+    --color-dark: #274C77;
+    --color-medium: #6096BA;
+    --color-highlight: #A3CEF1;
+    --color-gray: #8B8C89; 
   }
 
 * {
@@ -16,7 +16,6 @@
 /* Settings for the header */
 
 header {
-    background-color: var(--color-main);
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100px;
     padding: 10px;
@@ -24,7 +23,7 @@ header {
 
 header h1 {
     display: inline-block;
-    color:white;
+    color: var(--color-dark);
     font-size: 40px;
 }
 
@@ -34,7 +33,6 @@ header ul {
 
 header li {
     display: inline-block;
-    background-color: ;
 }
 
 #professional-links {
@@ -44,41 +42,39 @@ header li {
 
 #professional-links a {
     text-decoration: none;
-    color: white;
+    color: var(--color-dark);
 }
-
-li:hover {
-    text-decoration: none;
-    background-color: lightblue;
-}
-
 
 /* Settings for the navigation bar */
 nav {
-    background-color: bisque;
+    background-color: var(--color-medium);
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav li {
     display: inline-block;
-    background-color: olivedrab;
     padding: 5px;
+}
+
+nav li:hover{
+    background-color: var(--color-highlight);
 }
 
 nav a{
     text-decoration: none;
     font-size: 30px;
-    color: white;
+    color: var(--color-white);
 }
+
 
 /* Body content General Settings */
 
 body{
-    background-color: darkolivegreen;
+    background-color: var(--color-white);
     padding: 20px;
 }
 
 section{
     padding: 10px;
-    background-color: rgb(117, 117, 82);
+    background-color: var(--color-medium);
 }
