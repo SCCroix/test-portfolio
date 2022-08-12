@@ -1,4 +1,12 @@
 /* General Settings */
+:root {
+    --color-main: #E7ECEF;
+    --color-accent1: #274C77;
+    --color-accent2: #6096BA;
+    --color-accent3: #A3CEF1;
+    --color-accent4: #8B8C89; 
+  }
+
 * {
     padding: 2px;
     margin: 20px;
@@ -8,7 +16,7 @@
 /* Settings for the header */
 
 header {
-    background-color: darkolivegreen;
+    background-color: var(--color-main);
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100px;
     padding: 10px;
@@ -39,6 +47,11 @@ header li {
     color: white;
 }
 
+li:hover {
+    text-decoration: none;
+    background-color: lightblue;
+}
+
 
 /* Settings for the navigation bar */
 nav {
@@ -48,19 +61,24 @@ nav {
 
 nav li {
     display: inline-block;
-    background-color: blue;
+    background-color: olivedrab;
     padding: 5px;
-
 }
 
 nav a{
     text-decoration: none;
     font-size: 30px;
-    color: darkcyan;
+    color: white;
 }
 
 /* Body content General Settings */
 
+body{
+    background-color: darkolivegreen;
+    padding: 20px;
+}
+
 section{
     padding: 10px;
+    background-color: rgb(117, 117, 82);
 }
