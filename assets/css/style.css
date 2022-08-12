@@ -2,16 +2,22 @@
 * {
     padding: 2px;
     margin: 20px;
+    
 }
 
 /* Settings for the header */
 
 header {
-    background-color: darkkhaki;
+    background-color: darkolivegreen;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100px;
+    padding: 10px;
 }
 
 header h1 {
     display: inline-block;
+    color:white;
+    font-size: 40px;
 }
 
 header ul {
@@ -20,21 +26,41 @@ header ul {
 
 header li {
     display: inline-block;
+    background-color: ;
 }
 
 #professional-links {
-    display: inline-block;
     float: right;
+    text-decoration: none;
+}
+
+#professional-links a {
+    text-decoration: none;
+    color: white;
 }
 
 
 /* Settings for the navigation bar */
 nav {
     background-color: bisque;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav li {
     display: inline-block;
+    background-color: blue;
+    padding: 5px;
+
 }
 
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: darkcyan;
+}
 
+/* Body content General Settings */
+
+section{
+    padding: 10px;
+}
